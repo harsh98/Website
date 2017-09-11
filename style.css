@@ -1,0 +1,65 @@
+body{
+	font: 15px/1,5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(82, 82, 82);
+}
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Header */
+header{
+	background: black;
+	color: #ffffff;
+	width: 100%;
+	position: fixed;
+	border-bottom: #ffffff 3px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px: 
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 20px 20px 0px 20px;
+}
+header #branding{
+	float: left;
+	font-size: 30px;
+}
+header #branding h2{
+	margin: 0;
+}
+header nav{
+	float: right;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* Homepage */
+.container h1{
+	text-align: center;
+	font-size: 90px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
